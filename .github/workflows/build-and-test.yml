@@ -38,7 +38,7 @@ jobs:
         run: dotnet build test/Soenneker.Attributes.PublicOpenApiObject.Tests/Soenneker.Attributes.PublicOpenApiObject.Tests.csproj --configuration Release --no-restore --verbosity minimal
 
       - name: Test
-        run: dotnet test test/Soenneker.Attributes.PublicOpenApiObject.Tests/Soenneker.Attributes.PublicOpenApiObject.Tests.csproj --configuration Release --no-build --no-restore --verbosity minimal
+        run: dotnet test --project test/Soenneker.Attributes.PublicOpenApiObject.Tests/Soenneker.Attributes.PublicOpenApiObject.Tests.csproj --configuration Release --no-build --no-restore --verbosity minimal
 
       - name: Pack
         run: dotnet pack src/Soenneker.Attributes.PublicOpenApiObject/Soenneker.Attributes.PublicOpenApiObject.csproj --configuration Release --no-build --no-restore --output . --verbosity minimal
