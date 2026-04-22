@@ -1,11 +1,10 @@
-﻿using Soenneker.Tests.Unit;
-using Xunit;
+using Soenneker.Tests.Unit;
 
 namespace Soenneker.Attributes.PublicOpenApiObject.Tests;
 
 public sealed class PublicOpenApiObjectAttributeTests : UnitTest
 {
-    [Fact]
+    [Test]
     public void Default()
     {
 
