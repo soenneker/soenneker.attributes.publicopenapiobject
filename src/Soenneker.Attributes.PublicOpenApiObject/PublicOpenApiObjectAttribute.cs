@@ -3,8 +3,11 @@
 namespace Soenneker.Attributes.PublicOpenApiObject;
 
 /// <summary>
-/// For decorating objects that should be publicly accessible to see within OpenApi
+/// Marks a contract type as eligible for inclusion in a public OpenAPI document.
 /// </summary>
+/// <remarks>
+/// Apply this attribute to request, response, DTO, and value-object types whose schema is safe and useful for public API consumers.
+/// </remarks>
 [AttributeUsage(AttributeTargets.Class)]
 public class PublicOpenApiObjectAttribute : Attribute
 {
