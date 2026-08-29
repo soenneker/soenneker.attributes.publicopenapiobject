@@ -1,6 +1,7 @@
 [![](https://img.shields.io/nuget/v/soenneker.attributes.publicopenapiobject.svg?style=for-the-badge)](https://www.nuget.org/packages/soenneker.attributes.publicopenapiobject/)
 [![](https://img.shields.io/github/actions/workflow/status/soenneker/soenneker.attributes.publicopenapiobject/publish-package.yml?style=for-the-badge)](https://github.com/soenneker/soenneker.attributes.publicopenapiobject/actions/workflows/publish-package.yml)
 [![](https://img.shields.io/nuget/dt/soenneker.attributes.publicopenapiobject.svg?style=for-the-badge)](https://www.nuget.org/packages/soenneker.attributes.publicopenapiobject/)
+[![](https://img.shields.io/github/actions/workflow/status/soenneker/soenneker.attributes.publicopenapiobject/codeql.yml?label=CodeQL&style=for-the-badge)](https://github.com/soenneker/soenneker.attributes.publicopenapiobject/actions/workflows/codeql.yml)
 
 # Soenneker.Attributes.PublicOpenApiObject
 
